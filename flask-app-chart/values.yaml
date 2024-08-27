@@ -1,0 +1,6 @@
+replicaCount: 1
+imagePullSecretName: ghcr-secret
+
+image:
+  repository: ghcr.io/zackaria-slimane/flask-app
+  tag: latest
